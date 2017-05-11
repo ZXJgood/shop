@@ -18,7 +18,7 @@
 
 - (NSArray *)viewControllerArray{
     if (!_viewControllerArray) {
-        _viewControllerArray = [NSArray arrayWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"SXTTabBarViewController" ofType:@"plist"]];
+        _viewControllerArray = [NSArray arrayWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"Property List" ofType:@"plist"]];
     }
     return _viewControllerArray;
 }

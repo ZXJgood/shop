@@ -10,7 +10,6 @@
 		141C3839A3F1DE2BC44868D1 /* libPods-shop.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 81B066CC25AB04DF6C8EB735 /* libPods-shop.a */; };
 		91E816021EC1F8DE00B1DEB3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 91E816011EC1F8DE00B1DEB3 /* main.m */; };
 		91E816051EC1F8DE00B1DEB3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 91E816041EC1F8DE00B1DEB3 /* AppDelegate.m */; };
-		91E816081EC1F8DE00B1DEB3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91E816071EC1F8DE00B1DEB3 /* ViewController.m */; };
 		91E8160D1EC1F8DE00B1DEB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91E8160C1EC1F8DE00B1DEB3 /* Assets.xcassets */; };
 		91E816101EC1F8DE00B1DEB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91E8160E1EC1F8DE00B1DEB3 /* LaunchScreen.storyboard */; };
 		91E8161B1EC1F8DF00B1DEB3 /* shopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 91E8161A1EC1F8DF00B1DEB3 /* shopTests.m */; };
@@ -18,6 +17,10 @@
 		91E816351EC1FCC300B1DEB3 /* XJNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91E816341EC1FCC300B1DEB3 /* XJNavigationViewController.m */; };
 		91E816381EC1FD1500B1DEB3 /* XJTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91E816371EC1FD1500B1DEB3 /* XJTabBarViewController.m */; };
 		91E8163A1EC4A1D900B1DEB3 /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 91E816391EC4A1D900B1DEB3 /* Property List.plist */; };
+		91E816441EC4A63100B1DEB3 /* XJMyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91E816431EC4A63100B1DEB3 /* XJMyViewController.m */; };
+		91E816471EC4A64000B1DEB3 /* XJTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91E816461EC4A64000B1DEB3 /* XJTimeViewController.m */; };
+		91E8164A1EC4A65500B1DEB3 /* XJBuyCarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91E816491EC4A65500B1DEB3 /* XJBuyCarViewController.m */; };
+		91E8164D1EC4A66300B1DEB3 /* XJClassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91E8164C1EC4A66300B1DEB3 /* XJClassViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,8 +47,6 @@
 		91E816011EC1F8DE00B1DEB3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		91E816031EC1F8DE00B1DEB3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		91E816041EC1F8DE00B1DEB3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		91E816061EC1F8DE00B1DEB3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		91E816071EC1F8DE00B1DEB3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		91E8160C1EC1F8DE00B1DEB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		91E8160F1EC1F8DE00B1DEB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		91E816111EC1F8DE00B1DEB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -55,11 +56,19 @@
 		91E816211EC1F8DF00B1DEB3 /* shopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = shopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		91E816251EC1F8DF00B1DEB3 /* shopUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = shopUITests.m; sourceTree = "<group>"; };
 		91E816271EC1F8DF00B1DEB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		91E816331EC1FCC300B1DEB3 /* XJNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XJNavigationViewController.h; sourceTree = "<group>"; };
-		91E816341EC1FCC300B1DEB3 /* XJNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XJNavigationViewController.m; sourceTree = "<group>"; };
-		91E816361EC1FD1500B1DEB3 /* XJTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XJTabBarViewController.h; sourceTree = "<group>"; };
-		91E816371EC1FD1500B1DEB3 /* XJTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XJTabBarViewController.m; sourceTree = "<group>"; };
-		91E816391EC4A1D900B1DEB3 /* Property List.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
+		91E816331EC1FCC300B1DEB3 /* XJNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XJNavigationViewController.h; path = ../XJNavigationViewController.h; sourceTree = "<group>"; };
+		91E816341EC1FCC300B1DEB3 /* XJNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XJNavigationViewController.m; path = ../XJNavigationViewController.m; sourceTree = "<group>"; };
+		91E816361EC1FD1500B1DEB3 /* XJTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XJTabBarViewController.h; path = ../XJTabBarViewController.h; sourceTree = "<group>"; };
+		91E816371EC1FD1500B1DEB3 /* XJTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XJTabBarViewController.m; path = ../XJTabBarViewController.m; sourceTree = "<group>"; };
+		91E816391EC4A1D900B1DEB3 /* Property List.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Property List.plist"; path = "../Property List.plist"; sourceTree = "<group>"; };
+		91E816421EC4A63100B1DEB3 /* XJMyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XJMyViewController.h; sourceTree = "<group>"; };
+		91E816431EC4A63100B1DEB3 /* XJMyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XJMyViewController.m; sourceTree = "<group>"; };
+		91E816451EC4A64000B1DEB3 /* XJTimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XJTimeViewController.h; sourceTree = "<group>"; };
+		91E816461EC4A64000B1DEB3 /* XJTimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XJTimeViewController.m; sourceTree = "<group>"; };
+		91E816481EC4A65500B1DEB3 /* XJBuyCarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XJBuyCarViewController.h; sourceTree = "<group>"; };
+		91E816491EC4A65500B1DEB3 /* XJBuyCarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XJBuyCarViewController.m; sourceTree = "<group>"; };
+		91E8164B1EC4A66300B1DEB3 /* XJClassViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XJClassViewController.h; sourceTree = "<group>"; };
+		91E8164C1EC4A66300B1DEB3 /* XJClassViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XJClassViewController.m; sourceTree = "<group>"; };
 		D64235D0885402F12AD2FA4A /* Pods-shop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-shop/Pods-shop.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -133,17 +142,14 @@
 			children = (
 				91E816031EC1F8DE00B1DEB3 /* AppDelegate.h */,
 				91E816041EC1F8DE00B1DEB3 /* AppDelegate.m */,
-				91E816061EC1F8DE00B1DEB3 /* ViewController.h */,
-				91E816071EC1F8DE00B1DEB3 /* ViewController.m */,
-				91E8160C1EC1F8DE00B1DEB3 /* Assets.xcassets */,
-				91E8160E1EC1F8DE00B1DEB3 /* LaunchScreen.storyboard */,
-				91E816111EC1F8DE00B1DEB3 /* Info.plist */,
-				91E816331EC1FCC300B1DEB3 /* XJNavigationViewController.h */,
-				91E816341EC1FCC300B1DEB3 /* XJNavigationViewController.m */,
+				91E8163B1EC4A56A00B1DEB3 /* 登录 */,
+				91E8163C1EC4A56A00B1DEB3 /* 分类 */,
+				91E8163D1EC4A56A00B1DEB3 /* 购物车 */,
+				91E8163E1EC4A56A00B1DEB3 /* 控制器 */,
+				91E8163F1EC4A56A00B1DEB3 /* 我的 */,
+				91E816401EC4A56A00B1DEB3 /* 限时购 */,
+				91E816411EC4A56A00B1DEB3 /* 注册 */,
 				91E816001EC1F8DE00B1DEB3 /* Supporting Files */,
-				91E816361EC1FD1500B1DEB3 /* XJTabBarViewController.h */,
-				91E816371EC1FD1500B1DEB3 /* XJTabBarViewController.m */,
-				91E816391EC4A1D900B1DEB3 /* Property List.plist */,
 			);
 			path = shop;
 			sourceTree = "<group>";
@@ -151,6 +157,9 @@
 		91E816001EC1F8DE00B1DEB3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				91E8160C1EC1F8DE00B1DEB3 /* Assets.xcassets */,
+				91E8160E1EC1F8DE00B1DEB3 /* LaunchScreen.storyboard */,
+				91E816111EC1F8DE00B1DEB3 /* Info.plist */,
 				91E816011EC1F8DE00B1DEB3 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -172,6 +181,68 @@
 				91E816271EC1F8DF00B1DEB3 /* Info.plist */,
 			);
 			path = shopUITests;
+			sourceTree = "<group>";
+		};
+		91E8163B1EC4A56A00B1DEB3 /* 登录 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "登录";
+			sourceTree = "<group>";
+		};
+		91E8163C1EC4A56A00B1DEB3 /* 分类 */ = {
+			isa = PBXGroup;
+			children = (
+				91E8164B1EC4A66300B1DEB3 /* XJClassViewController.h */,
+				91E8164C1EC4A66300B1DEB3 /* XJClassViewController.m */,
+			);
+			path = "分类";
+			sourceTree = "<group>";
+		};
+		91E8163D1EC4A56A00B1DEB3 /* 购物车 */ = {
+			isa = PBXGroup;
+			children = (
+				91E816481EC4A65500B1DEB3 /* XJBuyCarViewController.h */,
+				91E816491EC4A65500B1DEB3 /* XJBuyCarViewController.m */,
+			);
+			path = "购物车";
+			sourceTree = "<group>";
+		};
+		91E8163E1EC4A56A00B1DEB3 /* 控制器 */ = {
+			isa = PBXGroup;
+			children = (
+				91E816391EC4A1D900B1DEB3 /* Property List.plist */,
+				91E816331EC1FCC300B1DEB3 /* XJNavigationViewController.h */,
+				91E816341EC1FCC300B1DEB3 /* XJNavigationViewController.m */,
+				91E816361EC1FD1500B1DEB3 /* XJTabBarViewController.h */,
+				91E816371EC1FD1500B1DEB3 /* XJTabBarViewController.m */,
+			);
+			path = "控制器";
+			sourceTree = "<group>";
+		};
+		91E8163F1EC4A56A00B1DEB3 /* 我的 */ = {
+			isa = PBXGroup;
+			children = (
+				91E816421EC4A63100B1DEB3 /* XJMyViewController.h */,
+				91E816431EC4A63100B1DEB3 /* XJMyViewController.m */,
+			);
+			path = "我的";
+			sourceTree = "<group>";
+		};
+		91E816401EC4A56A00B1DEB3 /* 限时购 */ = {
+			isa = PBXGroup;
+			children = (
+				91E816451EC4A64000B1DEB3 /* XJTimeViewController.h */,
+				91E816461EC4A64000B1DEB3 /* XJTimeViewController.m */,
+			);
+			path = "限时购";
+			sourceTree = "<group>";
+		};
+		91E816411EC4A56A00B1DEB3 /* 注册 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "注册";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -362,9 +433,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				91E816381EC1FD1500B1DEB3 /* XJTabBarViewController.m in Sources */,
+				91E8164D1EC4A66300B1DEB3 /* XJClassViewController.m in Sources */,
 				91E816351EC1FCC300B1DEB3 /* XJNavigationViewController.m in Sources */,
-				91E816081EC1F8DE00B1DEB3 /* ViewController.m in Sources */,
+				91E816441EC4A63100B1DEB3 /* XJMyViewController.m in Sources */,
+				91E816471EC4A64000B1DEB3 /* XJTimeViewController.m in Sources */,
 				91E816051EC1F8DE00B1DEB3 /* AppDelegate.m in Sources */,
+				91E8164A1EC4A65500B1DEB3 /* XJBuyCarViewController.m in Sources */,
 				91E816021EC1F8DE00B1DEB3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

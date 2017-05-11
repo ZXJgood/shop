@@ -3,11 +3,44 @@
 <plist version="1.0">
 <array>
 	<dict>
+		<key>title</key>
+		<string>限时购</string>
+		<key>viewController</key>
+		<string>XJTimeViewController</string>
+		<key>selectImage</key>
+		<string>菜单栏限时特卖按钮选中状态</string>
 		<key>image</key>
-		<string></string>
+		<string>菜单栏限时特卖按钮未选中状态</string>
 	</dict>
-	<dict/>
-	<dict/>
-	<dict/>
+	<dict>
+		<key>title</key>
+		<string>分类</string>
+		<key>viewController</key>
+		<string>XJClassViewController</string>
+		<key>selectImage</key>
+		<string>菜单栏分类按钮选中状态</string>
+		<key>image</key>
+		<string>惨淡栏分类按钮未选中状态</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>购物车</string>
+		<key>viewController</key>
+		<string>XJBuyCarViewController</string>
+		<key>selectImage</key>
+		<string>菜单栏购物车按钮选中状态</string>
+		<key>image</key>
+		<string>菜单栏购物车按钮未选中状态</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>我的</string>
+		<key>viewController</key>
+		<string>XJMyViewController</string>
+		<key>slectImage</key>
+		<string>菜单栏我的按钮选中状态</string>
+		<key>image</key>
+		<string>菜单栏我的按钮未选中状态</string>
+	</dict>
 </array>
 </plist>
