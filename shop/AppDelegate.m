@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "XJTabBarViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    
+    XJTabBarViewController *tabbar = [[XJTabBarViewController alloc]init];
+    self.window.rootViewController = tabbar;
+    [self.window makeKeyWindow];
+    
+    
     return YES;
 }
 
